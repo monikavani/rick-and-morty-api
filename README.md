@@ -56,14 +56,3 @@ UI	Chakra UI, Framer Motion
 State	React Context, LocalStorage
 API	Apollo Client, GraphQL
 Infrastructure	Vercel (Serverless)
-
-Project structure
-src/
-├── app/                # App router
-│   ├── (protected)/    # Auth-required routes
-│   └── layout.tsx      # Root layout
-├── components/         # Reusable UI
-├── context/            # Global state
-├── hooks/              # Custom hooks
-├── lib/                # Configurations
-└── types/              # Type definitions
