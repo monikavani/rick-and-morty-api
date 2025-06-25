@@ -1,9 +1,9 @@
 'use client';
 
 import { useState } from 'react';
-import { Box, Text, Heading, SimpleGrid, Spinner, useDisclosure } from '@chakra-ui/react';
+import { Box, Text, SimpleGrid, Spinner, useDisclosure } from '@chakra-ui/react';
 import { useImages } from '@/hooks/useImages';
-import { useSearchParams, useRouter } from 'next/navigation';
+import { useSearchParams } from 'next/navigation';
 import ImageCard  from '@/components/ImageCard';
 import type { Image as ImageType } from '@/types';
 import Pagination from '@/components/Pagination';
