@@ -34,6 +34,8 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+[![Live Demo](https://img.shields.io/badge/demo-live-blue)](https://leonardo-ai-tech-test.vercel.app/)
+
 A production-ready Next.js application demonstrating advanced patterns for authentication, data fetching, and state management.
 
 ![App Preview](public/screenshots/welcome.png) 
